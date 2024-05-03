@@ -1,3 +1,5 @@
+{
+
 // destructuring
 
 // object destructuring
@@ -12,7 +14,8 @@ const user = {
     address: "Uganda",
 };
 
-const { contactNo, name: { middleName } } = user;
+// middle name with name alias
+const { contactNo, name: { middleName: midName } } = user;
 
 
 
@@ -22,3 +25,5 @@ const myFriends = ["chandler", "joey", "ross", "rachel", "monica", "phoeba"];
 
 // ross as a name of bestfriend and others in the array of rest
 const [,, bestFriend, ...rest] = myFriends;
+
+}

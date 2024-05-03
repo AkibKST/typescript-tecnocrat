@@ -1,3 +1,5 @@
+{
+
 // Basic data type
 
 // string
@@ -32,3 +34,5 @@ let eligibleRollList: number[] = [1, 3, 5];
 let coOrdinates: [number,number] = [1, 5];
 
 let ageName: [number,string,boolean] = [50, 'Mr.X', true]
+
+}

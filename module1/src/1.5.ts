@@ -1,3 +1,4 @@
+{
 // Reference Type --> Object
 
 const user: {
@@ -14,3 +15,4 @@ const user: {
 }
 
 // user.company = 'PH' // because its a read only property
+}
